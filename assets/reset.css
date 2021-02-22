@@ -1,0 +1,97 @@
+body{
+    background: rgb(255,254,254);
+    background: linear-gradient(0deg, rgba(255,254,254,0.8692519244025736) 0%, rgba(186,184,180,1) 100%);
+    margin: 0;
+    font-family: 'Fira Mono';
+    width: 100%;
+    height: 260vh;
+    /*font-family: "Monotype Corsiva", "Apple Chancery", "URW Chancery L", cursive;*/
+}
+.title{
+    color: white;
+    text-align: center;
+    border-bottom: white 1px solid;
+    margin-bottom: 15px;
+    border-bottom: white 1px solid;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 2px white;
+}
+#dropdown-update-layout{
+    text-align: center;
+    color: black;
+    opacity: 0.80;
+    width: 13%;
+
+}
+.select-menu-outer{
+    opacity: 1;
+}
+.dropdown_reinit{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    /* background-color: #DF691A; */
+    background-color: #1652be;
+    text-decoration: none;
+    border-radius: .5rem;
+
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: white;
+    box-shadow: 0 1px 3px 0 #4876cb;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #112f66;
+    border-color: #112f66;
+}
+.btn{
+        border: initial;
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #112f66;
+    border-color: #112f66;
+    box-shadow: 0 1px 3px 0 #4876cb;
+}
+.btn:focus, .btn.focus {
+    color: #fff;
+    background-color: #112f66;
+    border-color: #112f66;
+    box-shadow: 0 1px 3px 0 #4876cb;
+}
+p {
+    margin-top: 15px;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+}
+#columns_button{
+    margin: auto;
+}
+.col-md-4{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px
+}
+#affichage_test{
+    white-space: pre-wrap;
+    color: black;
+
+}
+
+.btn_data{
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#table{
+    color: black;
+}
+.hover-data{
+    display: flex;
+    justify-content: space-evenly;
+}
